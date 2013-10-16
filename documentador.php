@@ -109,34 +109,60 @@
   <p align="center">
     </p>
     
-    <table width="373" border="0">
+    <table width="473" border="0">
       <tr>
-        <td width="182">Nro Orden de Trabajo:</td>
-        <td width="181"><input type="text" name="2" id="2"></td>
+        <td width="162">Nro Orden de Trabajo:</td>
+        <td width="301"><input type="text" name="1" id="1"></td>
+      </tr>
+      <tr>
+        <td width="162">Fecha Orden de Trabajo:</td>
+        <td width="301"><input type="text" name="2" id="2"></td>
       </tr>
       <tr>
         <td><label for="12">Nombre Empresa:</label></td>
-        <td><input type="text" name="12" id="12"></td>
+        <td><input type="text" name="3" id="3"></td>
       </tr>
       <tr>
         <td>RUT Empresa:</td>
-        <td><input type="text" name="14" id="14"></td>
+        <td><input type="text" name="4" id="4"></td>
       </tr>
       <tr>
-        <td><label for="152">Centro de Costo</label>
+        <td width="162">Proyecto :</td>
+        <td width="301"><input type="text" name="5" id="5"></td>
+      </tr>
+      <tr>
+        <td width="162">Nro Proyecto:</td>
+        <td width="301"><input type="text" name="6" id="6"></td>
+      </tr>
+      <tr>
+        <td><label for="152">Nro Centro de Costo</label>
 :</td>
-        <td><input type="text" name="15" id="15"></td>
+        <td><input type="text" name="7" id="7"></td>
       </tr>
       <tr>
-        <td><label for="162">Codigo de Gastos:</label></td>
-        <td><input type="text" name="16" id="16"></td>
+        <td><label for="162">Detalle Orden de Trabajo</label></td>
+        <td><label for="8"></label>
+        <textarea name="8" id="8" cols="45" rows="5"></textarea>          <label for="44"></label></td>
+      </tr>
+
+    </table>
+    <p>&nbsp;</p>
+    <table width="255" border="0">
+      <tr>
+        <td width="77" height="38">Neto:</td>
+        <td width="162"><input type="text" name="9" id="9"></td>
       </tr>
       <tr>
-        <td><label for="172">Proyecto:</label></td>
-        <td><input type="text" name="17" id="17"></td>
+        <td height="41"><label for="122">IVA:</label></td>
+        <td><input type="text" name="10" id="10"></td>
+      </tr>
+      <tr>
+        <td height="47"><label for="142">Total: </label></td>
+        <td><input type="text" name="11" id="11"></td>
       </tr>
     </table>
-   <p align="center"> <input type="submit" name="19" id="19" value="Ingresar" ></p>
+    <p>&nbsp;</p>
+    <p align="center"> <input type="submit" name="13" id="13" value="Ingresar" ></p>
   </form>
   
   <p>&nbsp;</p>
